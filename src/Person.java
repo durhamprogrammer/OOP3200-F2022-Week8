@@ -68,6 +68,15 @@ public class Person
         m_age = age;
     }
 
+    /**
+     * Default constructor - sets name and age to placeholder values
+     */
+    public Person()
+    {
+        m_name = "Unknown";
+        m_age = 0;
+    }
+
     // Public Methods
 
     /**
